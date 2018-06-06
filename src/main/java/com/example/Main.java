@@ -53,6 +53,19 @@ public class Main {
     return "index";
   }
 
+    @RequestMapping("/aboutus")
+    String aboutus() {
+        return "aboutus";
+    }
+    @RequestMapping("/outsideresources")
+    String outsideresources() {
+        return "outsideresources";
+    }
+    @RequestMapping("/calendar")
+    String calendar() {
+        return "calendar";
+    }
+    
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
