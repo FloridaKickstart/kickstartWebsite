@@ -36,7 +36,6 @@
 .left{float:left;}
 .right{float:right;}
 .center{margin:0 auto}
-
 p {
   margin-bottom: 80px
 }
@@ -44,4 +43,5 @@ p {
 body {
   height: 100%
   margin-bottom: 0px;
+  padding: 0px;
 }

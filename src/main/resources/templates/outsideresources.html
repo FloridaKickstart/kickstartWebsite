@@ -2,49 +2,60 @@
 <html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
 
 <body>
-<div class="jumbotron text-left">
-    <div class="container">
-        <a type="button" class="btn btn-lg btn-primary" href="index" align="left"><span class="glyphicon glyphicon-arrow-left"></span> Return</a>
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Online Resources</h1>
-    <h3></h3>
-    <table align="center" width="30%">
-        <tr>
-            <tr align="center"><h3>Unit 1: Computing, Software, and Programming</h3></tr>
-        <tr>
-            <tr align="left"><h5><a href="https://www.youtube.com/watch?v=Dv7gLpW91DM" style="color: #ffffff">Instructional Video</a></h5></tr>
-            <tr align="center"><h5><a href="https://share.nearpod.com/Eky0wO7cvN" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
-            <tr align="right"><h5><a href="http://lightbot.com/hour-of-code.html" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
-            <tr align="left"><h5><a href="https://goo.gl/forms/99qYJqJ1ibcOrJkA2" style="color: #ffffff">Assessment</a></h5></tr>
-            <tr align="right"><h5><a href="https://goo.gl/forms/6RxTJk9amGMt6GK43" style="color: #ffffff">Feedback</a></h5></tr>
-        <tr>
-    </table>
-    <table align="center" width="30%">
-        <tr>
-            <tr align="center"><h3>Unit 2: Introduction to Java</h3></tr>
-        <tr>
-            <tr align="left"><h5><a href="https://www.youtube.com/watch?v=mHSQJxeXJVM" style="color: #ffffff">Instructional Video</a></h5></tr>
-            <tr align="center"><h5><a href="https://share.nearpod.com/5mR8NswuyN" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
-            <tr align="right"><h5><a href="" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
-            <tr align="left"><h5><a href="https://goo.gl/forms/HthiWesRJ12sUbxh2" style="color: #ffffff">Assessment</a></h5></tr>
-            <tr align="right"><h5><a href="https://goo.gl/forms/IwZPwQS8I168pIo63" style="color: #ffffff">Feedback</a></h5></tr>
-        <tr>
-    </table>
-    <table align="center" width="30%">
-        <tr>
-            <tr align="center"><h3>Unit 3</h3></tr>
-        <tr>
-            <tr align="left"><h5><a href="" style="color: #ffffff">Instructional Video</a></h5></tr>
-            <tr align="center"><h5><a href="" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
-            <tr align="right"><h5><a href="" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
-            <tr align="left"><h5><a href="" style="color: #ffffff">Assessment</a></h5></tr>
-            <tr align="right"><h5><a href="" style="color: #ffffff">Feedback</a></h5></tr>
-    </table>
-  </div>
+    <style>
+    #return {
+        margin-left: 50px;
+    }
+    #back {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+<div class="jumbotron text-left" id="back">
+    <a type="button" class="btn btn-lg btn-primary" href="index" align="left" id="return"><span class="glyphicon glyphicon-arrow-left"></span> Return</a>
+    <div class="container center text-center">
+        <a href="/" class="lang-logo">
+            <img src="/lang-logo.png">
+        </a>
+        <h1>Online Resources</h1>
+        <h3></h3>
+        <table align="center" width="30%">
+            <tr>
+                <tr align="center"><h3>Unit 1: Computing, Software, and Programming</h3></tr>
+            </tr>
+            <tr>
+                <tr align="left"><h5><a href="https://www.youtube.com/watch?v=Dv7gLpW91DM" style="color: #ffffff">Instructional Video</a></h5></tr>
+                <tr align="center"><h5><a href="https://share.nearpod.com/Eky0wO7cvN" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                <tr align="right"><h5><a href="http://lightbot.com/hour-of-code.html" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
+                <tr align="left"><h5><a href="https://goo.gl/forms/99qYJqJ1ibcOrJkA2" style="color: #ffffff">Assessment</a></h5></tr>
+                <tr align="right"><h5><a href="https://goo.gl/forms/6RxTJk9amGMt6GK43" style="color: #ffffff">Feedback</a></h5></tr>
+            </tr>
+        </table>
+        <table align="center" width="30%">
+            <tr>
+                <tr align="center"><h3>Unit 2: Introduction to Java</h3></tr>
+            </tr>
+            <tr>
+                <tr align="left"><h5><a href="https://www.youtube.com/watch?v=mHSQJxeXJVM" style="color: #ffffff">Instructional Video</a></h5></tr>
+                <tr align="center"><h5><a href="https://share.nearpod.com/5mR8NswuyN" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                <tr align="right"><h5><a href="" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
+                <tr align="left"><h5><a href="https://goo.gl/forms/HthiWesRJ12sUbxh2" style="color: #ffffff">Assessment</a></h5></tr>
+                <tr align="right"><h5><a href="https://goo.gl/forms/IwZPwQS8I168pIo63" style="color: #ffffff">Feedback</a></h5></tr>
+            </tr>
+        </table>
+        <table align="center" width="30%">
+            <tr>
+                <tr align="center"><h3>Unit 3</h3></tr>
+            </tr>
+            <tr>
+                <tr align="left"><h5><a href="" style="color: #ffffff">Instructional Video</a></h5></tr>
+                <tr align="center"><h5><a href="" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                <tr align="right"><h5><a href="" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
+                <tr align="left"><h5><a href="" style="color: #ffffff">Assessment</a></h5></tr>
+                <tr align="right"><h5><a href="" style="color: #ffffff">Feedback</a></h5></tr>
+            </tr>
+        </table>
+    </div>
 </div>
 </body>
 </html>
