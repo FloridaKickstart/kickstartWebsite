@@ -48,7 +48,7 @@ public class Main {
     SpringApplication.run(Main.class, args);
   }
 
-  @RequestMapping("/")
+  @RequestMapping("/index")
   String index() {
     return "index";
   }
