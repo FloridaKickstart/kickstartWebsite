@@ -1,3 +1,5 @@
+* { margin: 0; padding: 0; }
+
 .jumbotron {
   background: radial-gradient(#002bff, #001892);
   color: white;
@@ -35,7 +37,13 @@
   }
 .left{float:left;}
 .right{float:right;}
-.center{margin:0 auto}
+.center{margin:0 auto;}
+.return {
+  margin-left: 50px;
+}
+.wideboi {
+  width: 100%;
+}
 p {
   margin-bottom: 0px;
   padding-bottom: 0px;
