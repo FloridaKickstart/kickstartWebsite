@@ -3,6 +3,48 @@
 
 <body>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+                .dropbtn {
+                    background-color: #002bff;
+                    color: white;
+                    padding: 16px;
+                    font-size: 20px;
+                    border: none;
+                    cursor: pointer;
+                    min-width: 460 px;
+                }
+            
+            .dropbtn:hover, .dropbtn:focus {
+                background-color: #002bff;
+            }
+            
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: center;
+                background-color: #3a8dff;
+                min-width: 250px;
+                overflow: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            
+            .dropdown a:hover {background-color: #ddd}
+            
+            .show {display:block;}
+                </style>
         <style>
         #back {
             width: 100%;
@@ -18,42 +60,54 @@
             <img src="/lang-logo.png">
         </a>
         <h1>Online Resources</h1>
-        <table align="center" width="30%">
-            <tr>
-                <tr align="center"><h3>Unit 1: Computing, Software, and Programming</h3></tr>
-            </tr>
-            <tr>
-                <tr align="left"><h5><a href="https://www.youtube.com/watch?v=Dv7gLpW91DM" style="color: #ffffff">Instructional Video</a></h5></tr>
-                <tr align="center"><h5><a href="https://share.nearpod.com/Eky0wO7cvN" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
-                <tr align="right"><h5><a href="http://lightbot.com/hour-of-code.html" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
-                <tr align="left"><h5><a href="https://goo.gl/forms/99qYJqJ1ibcOrJkA2" style="color: #ffffff">Assessment</a></h5></tr>
-                <tr align="right"><h5><a href="https://goo.gl/forms/6RxTJk9amGMt6GK43" style="color: #ffffff">Feedback</a></h5></tr>
-            </tr>
-        </table>
-        <table align="center" width="30%">
-            <tr>
-                <tr align="center"><h3>Unit 2: Introduction to Java</h3></tr>
-            </tr>
-            <tr>
-                <tr align="left"><h5><a href="https://www.youtube.com/watch?v=mHSQJxeXJVM" style="color: #ffffff">Instructional Video</a></h5></tr>
-                <tr align="center"><h5><a href="https://share.nearpod.com/5mR8NswuyN" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
-                <tr align="right"><h5><a href="" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
-                <tr align="left"><h5><a href="https://goo.gl/forms/HthiWesRJ12sUbxh2" style="color: #ffffff">Assessment</a></h5></tr>
-                <tr align="right"><h5><a href="https://goo.gl/forms/IwZPwQS8I168pIo63" style="color: #ffffff">Feedback</a></h5></tr>
-            </tr>
-        </table>
-        <table align="center" width="30%">
-            <tr>
-                <tr align="center"><h3>Unit 3</h3></tr>
-            </tr>
-            <tr>
-                <tr align="left"><h5><a href="" style="color: #ffffff">Instructional Video</a></h5></tr>
-                <tr align="center"><h5><a href="" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
-                <tr align="right"><h5><a href="" style="color: #ffffff">Activity/Programming Exercise</a></h5></tr>
-                <tr align="left"><h5><a href="" style="color: #ffffff">Assessment</a></h5></tr>
-                <tr align="right"><h5><a href="" style="color: #ffffff">Feedback</a></h5></tr>
-            </tr>
-        </table>
+        <div class="wideboi">
+            <div class="dropdown" style="margin-bottom: 25px; margin-top: 25px" width="460 px">
+            <button onclick="myFunction()" class="dropbtn">Unit 1: Computing, Software, and Programming</button>
+            <div id="myDropdown" class="dropdown-content">
+                <h5><a href="https://www.youtube.com/watch?v=Dv7gLpW91DM" style="color: #ffffff">Instructional Video</a></h5>
+                <h5><a href="https://share.nearpod.com/Eky0wO7cvN" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                <h5><a href="http://lightbot.com/hour-of-code.html" style="color: #ffffff">Activity/Programming Exercise</a></h5>
+                <h5><a href="https://goo.gl/forms/99qYJqJ1ibcOrJkA2" style="color: #ffffff">Assessment</a></h5>
+                <h5><a href="https://goo.gl/forms/6RxTJk9amGMt6GK43" style="color: #ffffff">Feedback</a></h5>
+                <h5><a href="https://flipgrid.com/e27367" style="color: #ffffff">Flipgrid Reflection</a></h5>
+            </div>
+        </div>
+        <div class="wideboi">
+            <div class="dropdown" style="margin-bottom: 25px" width="460 px">
+                <button onclick="myFunction2()" class="dropbtn">Unit 2: Introduction to Java</button>
+                <div id="myDropdown2" class="dropdown-content">
+                    <h5><a href="https://www.youtube.com/watch?v=mHSQJxeXJVM" style="color: #ffffff">Instructional Video</a></h5>
+                    <h5><a href="https://share.nearpod.com/5mR8NswuyN" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                    <h5><a href="https://goo.gl/forms/nMHWG5eqFXqCYaDo1" style="color: #ffffff">Activity/Programming Exercise</a></h5>
+                    <h5><a href="https://goo.gl/forms/HthiWesRJ12sUbxh2" style="color: #ffffff">Assessment</a></h5>
+                    <h5><a href="https://goo.gl/forms/IwZPwQS8I168pIo63" style="color: #ffffff">Feedback</a></h5>
+                    <h5><a href="https://flipgrid.com/383fd6" style="color: #ffffff">Flipgrid Reflection</a></h5>
+            </div>
+        </div>
+        </div>
+        
+        <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        function myFunction2() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        </script>
     </div>
 </div>
 </body>
