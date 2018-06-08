@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
 
-<body>
-    <div class="jumbotron text-left">
-        <div class="container">
-            <a type="button" class="btn btn-lg btn-primary" href="index" align="left"><span class="glyphicon glyphicon-arrow-left"></span> Return</a>
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Calendar</h1>
-        <iframe align="left" src="https://calendar.google.com/calendar/embed?src=floridakickstart%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<style>
+	.full {
+		width: 100%;
+		height: 100%;
+	}
+</style>
 
+<body>
+	<div class="jumbotron text-left">
+		<a type="button" class="btn btn-lg btn-primary return" href="index" align="left"><span class="glyphicon glyphicon-arrow-left" id="return"></span> Return</a>
+		<div class="container text-center center">
+			<a href="/" class="lang-logo">
+				<img src="/lang-logo.png">
+			</a>
+			<h1>Calendar</h1>
+			<iframe align="center" src="https://calendar.google.com/calendar/embed?src=floridakickstart%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+		</div>
+	</div>
 </body>
 </html>
