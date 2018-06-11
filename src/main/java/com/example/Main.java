@@ -73,6 +73,10 @@ public class Main {
     String unit1nearpod() {
         return "unit1nearpod";
     }
+    @RequestMapping("/unit1activity")
+    String unit1activity() {
+        return "unit1activity";
+    }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
