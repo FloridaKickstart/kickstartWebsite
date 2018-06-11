@@ -2,33 +2,17 @@
 <html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
 
 <body>
-	<style>
-	.emails {
-	    margin-bottom: 20px;
-	}
-	#aboutdesc {
-		margin-bottom: 50px;
-		width: 700px;
-	}
-	.centertext {
-    	text-align: center;
-	}
-	.full {
-		width: 100%;
-		height: 100%;
-	}
-	</style>
-    <div class="jumbotron full">
-        <div class="center container full">
+    <div class="jumbotron">
+        <div class="center container" style="width: 100%; height: 100%">
     		<a type="button" class="btn btn-lg btn-primary return" href="index" align="left"><span class="glyphicon glyphicon-arrow-left"></span> Return</a>
-			<div class="center centertext">
+			<div class="center" style="text-align: center">
 			    <a href="/" class="lang-logo">
 			      <img src="/lang-logo.png"/>
 			    </a>
 			  	<h1>About Us</h1>
-			  	<p class="center" id="aboutdesc">We are a team of six students at Gulliver Preparatory in Miami, FL. Our goal as a non-profit organization is to provide computer coding lessons as a service to the community.</p>
-                <h3 class="emails">Contact Us:</h3>
-				<p>floridakickstart@gmail.com</p>
+			  	<p class="center" style="margin-bottom: 50px; width: 700px">We are a team of six students at Gulliver Preparatory in Miami, FL. Our goal as a non-profit organization is to provide computer coding lessons as a service to the community.</p>
+                <h3 style="margin-bottom: 10px">Contact Us:</h3>
+				<p style="margin-top: 0px; padding-top: 0px">floridakickstart@gmail.com</p>
 			</div>
         </div>
 	</div>
