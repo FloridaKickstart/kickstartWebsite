@@ -65,7 +65,14 @@ public class Main {
     String calendar() {
         return "calendar";
     }
-    
+    @RequestMapping("/unit1video")
+    String unit1video() {
+        return "unit1video";
+    }
+    @RequestMapping("/unit1nearpod")
+    String unit1nearpod() {
+        return "unit1nearpod";
+    }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
