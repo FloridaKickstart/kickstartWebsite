@@ -14,21 +14,9 @@
         </a>
         <h1>Online Resources</h1>
         <div class="wideboi">
-            <div class="dropdown" style="margin-bottom: 25px; margin-top: 25px">
-            <button onclick="myFunction()" class="dropbtn">Unit 1: Computing, Software, and Programming</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <h5><a href="unit1video" style="color: #ffffff">Instructional Video</a></h5>
-                    <h5><a href="unit1nearpod" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
-                    <h5><a href="unit1activity" style="color: #ffffff">Activity/Programming Exercise</a></h5>
-                    <h5><a href="https://goo.gl/forms/99qYJqJ1ibcOrJkA2" style="color: #ffffff">Assessment</a></h5>
-                    <h5><a href="https://goo.gl/forms/6RxTJk9amGMt6GK43" style="color: #ffffff">Feedback</a></h5>
-                    <h5><a href="https://flipgrid.com/e27367" style="color: #ffffff">Flipgrid Reflection</a></h5>
-                </div>
-            </div>
-        </div>
-        <div class="wideboi">
             <div class="dropdown" style="margin-bottom: 25px">
-                <button onclick="myFunction2()" class="dropbtn">Unit 2: Introduction to Java</button>
+                <button onclick="Unit1()" class="dropbtn">Unit 1: Computing, Software, and Programming</button>
+                
                 <div id="myDropdown2" class="dropdown-content">
                     <h5><a href="unit1video" style="color: #ffffff">Instructional Video</a></h5>
                     <h5><a href="unit1nearpod" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
@@ -37,16 +25,41 @@
                     <h5><a href="unit1feedback" style="color: #ffffff">Feedback</a></h5>
                     <h5><a href="unit1flipgrid" style="color: #ffffff">Flipgrid Reflection</a></h5>
                 </div>
+            
+                <button onclick="Unit2()" class="dropbtn">Unit 2: Introduction to Java</button>
+                <div id="unit2" class="dropdown-content">
+                    <h5><a href="unit2video" style="color: #ffffff">Instructional Video</a></h5>
+                    <h5><a href="unit2nearpod" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                    <h5><a href="https://goo.gl/forms/nMHWG5eqFXqCYaDo1" style="color: #ffffff">Activity/Programming Exercise</a></h5>
+                    <h5><a href="https://goo.gl/forms/HthiWesRJ12sUbxh2" target="_blank" style="color: #ffffff">Assessment</a></h5>
+                    <h5><a href="https://goo.gl/forms/IwZPwQS8I168pIo63" target="_blank" style="color: #ffffff">Feedback</a></h5>
+                    <h5><a href="https://flipgrid.com/383fd6" target="_blank" style="color: #ffffff">Flipgrid Reflection</a></h5>
+                </div>
             </div>
         </div>
+    
+        <div class="wideboi">
+            <div class="dropdown" style="margin-bottom: 25px">
+                <button onclick="Unit3()" class="dropbtn">Unit 3: PLACEHOLDER</button>
+                <div id="unit3" class="dropdown-content">
+                    <h5><a href="unit2video" style="color: #ffffff">Instructional Video</a></h5>
+                    <h5><a href="unit2nearpod" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                    <h5><a href="https://goo.gl/forms/nMHWG5eqFXqCYaDo1" style="color: #ffffff">Activity/Programming Exercise</a></h5>
+                    <h5><a href="https://goo.gl/forms/HthiWesRJ12sUbxh2" target="_blank" style="color: #ffffff">Assessment</a></h5>
+                    <h5><a href="https://goo.gl/forms/IwZPwQS8I168pIo63" target="_blank" style="color: #ffffff">Feedback</a></h5>
+                    <h5><a href="https://flipgrid.com/383fd6" target="_blank" style="color: #ffffff">Flipgrid Reflection</a></h5>
+                </div>
+            </div>
         </div>
-        
         <script>
-        function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
+        function Unit1() {
+            document.getElementById("unit1").classList.toggle("show");
         }
-        function myFunction2() {
-            document.getElementById("myDropdown2").classList.toggle("show");
+        function Unit2() {
+            document.getElementById("unit2").classList.toggle("show");
+        }
+        function Unit3() {
+            document.getElementById("unit3").classList.toggle("show");
         }
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(event) {

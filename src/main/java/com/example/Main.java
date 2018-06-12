@@ -52,31 +52,30 @@ public class Main {
   String index() {
     return "index";
   }
-
-    @RequestMapping("/aboutus")
-    String aboutus() {
-        return "aboutus";
-    }
-    @RequestMapping("/outsideresources")
-    String outsideresources() {
-        return "outsideresources";
-    }
-    @RequestMapping("/calendar")
-    String calendar() {
-        return "calendar";
-    }
-    @RequestMapping("/unit1video")
-    String unit1video() {
-        return "unit1video";
-    }
-    @RequestMapping("/unit1nearpod")
-    String unit1nearpod() {
-        return "unit1nearpod";
-    }
-    @RequestMapping("/unit1activity")
-    String unit1activity() {
-        return "unit1activity";
-    }
+  @RequestMapping("/aboutus")
+  String aboutus() {
+      return "aboutus";
+  }
+  @RequestMapping("/outsideresources")
+  String outsideresources() {
+      return "outsideresources";
+  }
+  @RequestMapping("/calendar")
+  String calendar() {
+      return "calendar";
+  }
+  @RequestMapping("/unit1video")
+  String unit1video() {
+      return "unit1video";
+  }
+  @RequestMapping("/unit1nearpod")
+  String unit1nearpod() {
+      return "unit1nearpod";
+  }
+  @RequestMapping("/unit1activity")
+  String unit1activity() {
+      return "unit1activity";
+  }
     @RequestMapping("/unit1assessment")
     String unit1assessment() {
         return "unit1assessment";
@@ -89,6 +88,15 @@ public class Main {
     String unit1flipgrid() {
         return "unit1flipgrid";
     }
+  @RequestMapping("/unit2video")
+  String unit2video() {
+      return "unit2video";
+  }
+  @RequestMapping("/unit2nearpod")
+  String unit2nearpod() {
+      return "unit2nearpod";
+  }
+>>>>>>> bc8eb23a4ea94b0da0b264860bbd0798b983f566
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
