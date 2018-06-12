@@ -96,7 +96,6 @@ public class Main {
   String unit2nearpod() {
       return "unit2nearpod";
   }
->>>>>>> bc8eb23a4ea94b0da0b264860bbd0798b983f566
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
