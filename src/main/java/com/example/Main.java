@@ -77,6 +77,18 @@ public class Main {
     String unit1activity() {
         return "unit1activity";
     }
+    @RequestMapping("/unit1assessment")
+    String unit1assessment() {
+        return "unit1assessment";
+    }
+    @RequestMapping("/unit1feedback")
+    String unit1feedback() {
+        return "unit1feedback";
+    }
+    @RequestMapping("/unit1flipgrid")
+    String unit1flipgrid() {
+        return "unit1flipgrid";
+    }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
