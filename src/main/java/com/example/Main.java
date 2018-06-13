@@ -112,6 +112,30 @@ public class Main {
     String unit2flipgrid() {
         return "unit2flipgrid";
     }
+    @RequestMapping("/unit3video")
+    String unit3video() {
+        return "unit3video";
+    }
+    @RequestMapping("/unit3nearpod")
+    String unit3nearpod() {
+        return "unit3nearpod";
+    }
+    @RequestMapping("/unit3activity")
+    String unit3activity() {
+        return "unit3activity";
+    }
+    @RequestMapping("/unit3assessment")
+    String unit3assessment() {
+        return "unit3assessment";
+    }
+    @RequestMapping("/unit3feedback")
+    String unit3feedback() {
+        return "unit3feedback";
+    }
+    @RequestMapping("/unit3flipgrid")
+    String unit3flipgrid() {
+        return "unit3flipgrid";
+    }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
