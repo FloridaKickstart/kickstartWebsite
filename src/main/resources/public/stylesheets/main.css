@@ -44,11 +44,21 @@
 .wideboi {
   width: 100%;
 }
+.aboutleft {
+  width: 40%;
+  margin-left: 5%;
+}
+.aboutright {
+  width: 40%;
+  margin-right: 5%;
+}
 p {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-
+hr {
+  width: 85%;
+}
 body {
   height: 100%;
   padding-bottom: 0px;
