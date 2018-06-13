@@ -96,6 +96,22 @@ public class Main {
   String unit2nearpod() {
       return "unit2nearpod";
   }
+    @RequestMapping("/unit2activity")
+    String unit2activity() {
+        return "unit2activity";
+    }
+    @RequestMapping("/unit2assessment")
+    String unit2assessment() {
+        return "unit2assessment";
+    }
+    @RequestMapping("/unit2feedback")
+    String unit2feedback() {
+        return "unit2feedback";
+    }
+    @RequestMapping("/unit2flipgrid")
+    String unit2flipgrid() {
+        return "unit2flipgrid";
+    }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
