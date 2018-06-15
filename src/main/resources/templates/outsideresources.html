@@ -12,7 +12,7 @@
         <a href="/" class="lang-logo">
             <img src="/lang-logo.png">
         </a>
-        <h1>Online Resources</h1>
+        <h1>Online Courses</h1>
         <div class="wideboi">
             <div class="dropdown" style="margin-bottom: 25px">
                 <button onclick="Unit1()" class="dropbtn">Unit 1: Computing, Software, and Programming</button>
@@ -53,6 +53,32 @@
                 </div>
             </div>
         </div>
+        <div class="wideboi">
+            <div class="dropdown" style="margin-bottom: 25px">
+                <button onclick="Unit4()" class="dropbtn">Unit 4: Conditional Statements</button>
+                <div id="unit4" class="dropdown-content">
+                    <h5><a href="unit4video" style="color: #ffffff">Instructional Video</a></h5>
+                    <h5><a href="unit4nearpod" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                    <h5><a href="https://goo.gl/forms/ZzEapY4nibhAT1Wl2" target="_blank" style="color: #ffffff">Activity/Programming Exercise</a></h5>
+                    <h5><a href="https://goo.gl/forms/b9cYYTlvrrKYB1L22" target="_blank" style="color: #ffffff">Assessment</a></h5>
+                    <h5><a href="https://goo.gl/forms/dRRQQCEzKVspvIPz1" target="_blank" style="color: #ffffff">Feedback</a></h5>
+                    <h5><a href="unit4flipgrid" style="color: #ffffff">Flipgrid Reflection</a></h5>
+                </div>
+            </div>
+        </div>
+        <div class="wideboi">
+            <div class="dropdown" style="margin-bottom: 25px">
+                <button onclick="Unit5()" class="dropbtn">Unit 5: Cybersecurity</button>
+                <div id="unit5" class="dropdown-content">
+                    <h5><a href="unit5video" style="color: #ffffff">Instructional Video</a></h5>
+                    <h5><a href="unit5nearpod" style="color: #ffffff">Nearpod Presentation</a></h5></tr>
+                    <h5><a href="https://goo.gl/forms/PJfFJAoxqZCEzE8p1" target="_blank" style="color: #ffffff">Activity/Programming Exercise</a></h5>
+                    <h5><a href="https://goo.gl/forms/z57Q26WfWgYmC8PW2" target="_blank" style="color: #ffffff">Assessment</a></h5>
+                    <h5><a href="https://goo.gl/forms/ng3HBPvloZrotUCw1" target="_blank" style="color: #ffffff">Feedback</a></h5>
+                    <h5><a href="unit5flipgrid" style="color: #ffffff">Flipgrid Reflection</a></h5>
+                </div>
+            </div>
+        </div>
         <script>
         function Unit1() {
             document.getElementById("unit1").classList.toggle("show");
@@ -62,6 +88,12 @@
         }
         function Unit3() {
             document.getElementById("unit3").classList.toggle("show");
+        }
+        function Unit4() {
+            document.getElementById("unit4").classList.toggle("show");
+        }
+        function Unit5() {
+            document.getElementById("unit5").classList.toggle("show");
         }
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(event) {

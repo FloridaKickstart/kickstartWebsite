@@ -136,6 +136,54 @@ public class Main {
     String unit3flipgrid() {
         return "unit3flipgrid";
     }
+    @RequestMapping("/unit4video")
+    String unit4video() {
+        return "unit4video";
+    }
+    @RequestMapping("/unit4nearpod")
+    String unit4nearpod() {
+        return "unit4nearpod";
+    }
+    @RequestMapping("/unit4activity")
+    String unit4activity() {
+        return "unit4activity";
+    }
+    @RequestMapping("/unit4assessment")
+    String unit4assessment() {
+        return "unit4assessment";
+    }
+    @RequestMapping("/unit4feedback")
+    String unit4feedback() {
+        return "unit4feedback";
+    }
+    @RequestMapping("/unit4flipgrid")
+    String unit4flipgrid() {
+        return "unit4flipgrid";
+    }
+    @RequestMapping("/unit5video")
+    String unit5video() {
+        return "unit5video";
+    }
+    @RequestMapping("/unit5nearpod")
+    String unit5nearpod() {
+        return "unit5nearpod";
+    }
+    @RequestMapping("/unit5activity")
+    String unit5activity() {
+        return "unit5activity";
+    }
+    @RequestMapping("/unit5assessment")
+    String unit5assessment() {
+        return "unit5assessment";
+    }
+    @RequestMapping("/unit5feedback")
+    String unit5feedback() {
+        return "unit5feedback";
+    }
+    @RequestMapping("/unit5flipgrid")
+    String unit5flipgrid() {
+        return "unit5flipgrid";
+    }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
