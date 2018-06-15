@@ -76,14 +76,6 @@ public class Main {
   String unit1activity() {
       return "unit1activity";
   }
-    @RequestMapping("/unit1assessment")
-    String unit1assessment() {
-        return "unit1assessment";
-    }
-    @RequestMapping("/unit1feedback")
-    String unit1feedback() {
-        return "unit1feedback";
-    }
     @RequestMapping("/unit1flipgrid")
     String unit1flipgrid() {
         return "unit1flipgrid";
@@ -96,18 +88,6 @@ public class Main {
   String unit2nearpod() {
       return "unit2nearpod";
   }
-    @RequestMapping("/unit2activity")
-    String unit2activity() {
-        return "unit2activity";
-    }
-    @RequestMapping("/unit2assessment")
-    String unit2assessment() {
-        return "unit2assessment";
-    }
-    @RequestMapping("/unit2feedback")
-    String unit2feedback() {
-        return "unit2feedback";
-    }
     @RequestMapping("/unit2flipgrid")
     String unit2flipgrid() {
         return "unit2flipgrid";
@@ -119,18 +99,6 @@ public class Main {
     @RequestMapping("/unit3nearpod")
     String unit3nearpod() {
         return "unit3nearpod";
-    }
-    @RequestMapping("/unit3activity")
-    String unit3activity() {
-        return "unit3activity";
-    }
-    @RequestMapping("/unit3assessment")
-    String unit3assessment() {
-        return "unit3assessment";
-    }
-    @RequestMapping("/unit3feedback")
-    String unit3feedback() {
-        return "unit3feedback";
     }
     @RequestMapping("/unit3flipgrid")
     String unit3flipgrid() {
@@ -144,18 +112,6 @@ public class Main {
     String unit4nearpod() {
         return "unit4nearpod";
     }
-    @RequestMapping("/unit4activity")
-    String unit4activity() {
-        return "unit4activity";
-    }
-    @RequestMapping("/unit4assessment")
-    String unit4assessment() {
-        return "unit4assessment";
-    }
-    @RequestMapping("/unit4feedback")
-    String unit4feedback() {
-        return "unit4feedback";
-    }
     @RequestMapping("/unit4flipgrid")
     String unit4flipgrid() {
         return "unit4flipgrid";
@@ -168,21 +124,21 @@ public class Main {
     String unit5nearpod() {
         return "unit5nearpod";
     }
-    @RequestMapping("/unit5activity")
-    String unit5activity() {
-        return "unit5activity";
-    }
-    @RequestMapping("/unit5assessment")
-    String unit5assessment() {
-        return "unit5assessment";
-    }
-    @RequestMapping("/unit5feedback")
-    String unit5feedback() {
-        return "unit5feedback";
-    }
     @RequestMapping("/unit5flipgrid")
     String unit5flipgrid() {
         return "unit5flipgrid";
+    }
+    @RequestMapping("/unit6video")
+    String unit6video() {
+        return "unit6video";
+    }
+    @RequestMapping("/unit6nearpod")
+    String unit6nearpod() {
+        return "unit6nearpod";
+    }
+    @RequestMapping("/unit6flipgrid")
+    String unit6flipgrid() {
+        return "unit6flipgrid";
     }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
