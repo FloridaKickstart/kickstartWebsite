@@ -52,9 +52,9 @@ public class Main {
   String index() {
     return "index";
   }
-  @RequestMapping("/aboutus")
-  String aboutus() {
-      return "aboutus";
+  @RequestMapping("/kickstartteam")
+  String kickstartteam() {
+      return "kickstartteam";
   }
   @RequestMapping("/outsideresources")
   String outsideresources() {
