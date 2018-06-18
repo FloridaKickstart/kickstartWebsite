@@ -56,6 +56,14 @@ public class Main {
   String kickstartteam() {
       return "kickstartteam";
   }
+    @RequestMapping("/faq")
+    String faq() {
+        return "faq";
+    }
+    @RequestMapping("/partners")
+    String partners() {
+        return "partners";
+    }
   @RequestMapping("/outsideresources")
   String outsideresources() {
       return "outsideresources";

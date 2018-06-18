@@ -110,6 +110,7 @@ body {
     cursor: pointer;
     width: 132.36px;
     height: 46px;
+    z-index: 100;
 }
 .dropbtn2:hover, .dropbtn2:focus {
     background-color: #293489;
