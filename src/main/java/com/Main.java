@@ -148,6 +148,10 @@ public class Main {
     String unit6flipgrid() {
         return "unit6flipgrid";
     }
+    @RequestMapping("/unit7video")
+    String unit7video() {
+        return "unit7video";
+    }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
