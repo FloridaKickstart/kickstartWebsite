@@ -13,6 +13,9 @@
             <img src="/lang-logo.png">
         </a>
         <h1>Online Courses</h1>
+        <div class="row">
+            <div class="col-md-6 left">
+                <h3>Java</h3>
         <div class="wideboi">
             <div class="dropdown" style="margin-bottom: 25px">
                 <button onclick="Unit1()" class="dropbtn">Unit 1: Computing, Software, and Programming</button>
@@ -107,11 +110,66 @@
             <div class="dropdown" style="margin-bottom: 25px">
                 <button onclick="Unit8()" class="dropbtn">Unit 8: Raspberry Pi</button>
                 <div id="unit8" class="dropdown-content">
-                    <h5><a href="https://docs.google.com/presentation/d/1-44kuhIiU14RsIm4ucrwSDsO1LcuHhmO_RuQPcXf4wo/edit?usp=sharing" style="color: #ffffff">Presentation</a></h5>
+                    <h5><a href="https://docs.google.com/presentation/d/1-44kuhIiU14RsIm4ucrwSDsO1LcuHhmO_RuQPcXf4wo/edit?usp=sharing" style="color: #ffffff" target="_blank">Presentation</a></h5>
                 </div>
             </div>
         </div>
-        
+        <div class="wideboi">
+            <div class="dropdown" style="margin-bottom: 25px">
+                <button onclick="Unit9()" class="dropbtn">Case Study #1</button>
+                <div id="unit9" class="dropdown-content">
+                    <h5><a href="https://docs.google.com/presentation/d/1dsQEsXOT_mBAN2TBpxlxnvOHEpd0s4cK-5pon0Ays08/edit#slide=id.p" style="color: #ffffff" target="_blank">Presentation</a></h5>
+                </div>
+            </div>
+        </div>
+        <div class="wideboi">
+            <div class="dropdown" style="margin-bottom: 25px">
+                <button onclick="Unit10()" class="dropbtn">Case Study #2</button>
+                <div id="unit10" class="dropdown-content">
+                    <h5><a href="https://docs.google.com/presentation/d/1FDdnst1IvpBmKvTbCA4bDOUf41uQCVia4ATUqZkT290/edit#slide=id.p" style="color: #ffffff" target="_blank">Presentation</a></h5>
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="col-md-6 right">
+                <h3>Artificial Intelligence</h3>
+                <div class="wideboi">
+                    <div class="dropdown" style="margin-bottom: 25px">
+                        <button onclick="AI()" class="dropbtn">Unit 1: Machine Learning</button>
+                        <div id="AI" class="dropdown-content">
+                            <h5><a href="https://www.youtube.com/watch?v=j4Zyg0viHxg&t=151s" style="color: #ffffff" target="_blank">Presentation</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <h3>Python 3</h3>
+                <div class="wideboi">
+                    <div class="dropdown" style="margin-bottom: 25px">
+                        <button onclick="Python()" class="dropbtn">Unit 1: Intro to Python 3</button>
+                        <div id="Python" class="dropdown-content">
+                            <h5><a href="https://docs.google.com/presentation/d/10lRcvUlS1O0rPsr5QkXCX_-BrkJ5a_SIUsYQ8HjWm_4/edit" style="color: #ffffff" target="_blank">Presentation</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <h3>HTML and CSS</h3>
+                <div class="wideboi">
+                    <div class="dropdown" style="margin-bottom: 25px">
+                        <button onclick="HTML()" class="dropbtn">Unit 1: Web Design with HTML</button>
+                        <div id="HTML" class="dropdown-content">
+                            <h5><a href="https://docs.google.com/presentation/d/16VslWvyTyBQxI6XSgA1udSzFs6czNyOG9kWX9-NjuA0/edit#slide=id.p" style="color: #ffffff" target="_blank">Presentation</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <h3>Algebra II</h3>
+                <div class="wideboi">
+                    <div class="dropdown" style="margin-bottom: 25px">
+                        <button onclick="Alg()" class="dropbtn">Unit 1: Functions and Mappings</button>
+                        <div id="Alg" class="dropdown-content">
+                            <h5><a href="https://docs.google.com/presentation/d/1d8Z43EEBNkUnJCmeSnGIzCP8jyX-Bc38YhsKPDbE2Tw/edit?usp=sharing" style="color: #ffffff" target="_blank">Presentation</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script>
         function Unit1() {
             document.getElementById("unit1").classList.toggle("show");
@@ -136,6 +194,24 @@
         }
         function Unit8() {
             document.getElementById("unit8").classList.toggle("show");
+        }
+        function Unit9() {
+            document.getElementById("unit9").classList.toggle("show");
+        }
+        function Unit10() {
+            document.getElementById("unit10").classList.toggle("show");
+        }
+        function AI() {
+            document.getElementById("AI").classList.toggle("show");
+        }
+        function Python() {
+            document.getElementById("Python").classList.toggle("show");
+        }
+        function HTML() {
+            document.getElementById("HTML").classList.toggle("show");
+        }
+        function Alg() {
+            document.getElementById("Alg").classList.toggle("show");
         }
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(event) {
