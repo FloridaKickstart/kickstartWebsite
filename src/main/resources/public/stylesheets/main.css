@@ -138,3 +138,14 @@ body {
 .dropdown2 a:hover {background-color: #293489}
 
 .show {display:block;}
+
+#slideshow {
+    margin: 0px auto;
+    position: relative;
+    width: 450px;
+    height: 300px;
+}
+
+#slideshow > div {
+    position: absolute;
+}
